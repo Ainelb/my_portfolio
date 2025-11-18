@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    position: sticky;
+    height: 90px;
+    width: 100% auto;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    gap: 100px;
+    font-family: "Poppins";
+    align-items: center;
+}
+
+header li {
+    list-style: none;
+    color: black;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header img {
+    height: 80px;
+    width: 100px;
+}
+
+.form {
+    height: 46px;
+    width: 155px;
+    border-radius: 14px;
+    border: none;
+    color: white;
+    background-color: #214f8e;
+    cursor: pointer;
+}
+
+.form:hover {
+    background-color: #3664a4;
+}
+
+.section_one {
+    background-image: url(./images/bg.jpg);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.section_one_content {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 40px;
+    font-family: "Poppins";
+    position: relative;
+    right: 150px;
+}
+
+.section_one_content h1 {
+    font-size: 65px;
+}
+
+.section_one_content h3 {
+    font-size: 20px;
+}
+
+.contact_me {
+    height: 46px;
+    width: 155px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #214f8e;
+    cursor: pointer; 
+}
+
+.contact_me:hover {
+    background-color: #3664a4;
+}
+
+.about_me {
+    width: 100% auto;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    font-size: "Poppins";
+    background-color: aliceblue;
+}
+
+.about_me_text h1 {
+    font-family: "Poppins";
+    font-size: 38px;
+}
+
+
+.my_image img {
+    width: 250px;
+    height: 420px;
+}
+
+.about_me_text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 400px;
+}
+
+.about_me_text p {
+    font-size: 20px;
+}
+
+.projects {
+    height: 600px;
+    width: 100% auto;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins";
+    gap: 80px;
+    background-color: white;
+    top: 150px;
+    background-color: aliceblue;
+    justify-content: center;
+}
+
+.projects h1 {
+    position: relative;
+    left: 200px;
+    top: 20px;
+    width: 500px;
+    font-size: 38px;
+}
+
+.projects img {
+    height: 200px;
+    width: 400px;
+}
+
+.project_block {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.project_block h2 {
+    font-weight: 400;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.project_block a {
+    text-decoration: none;
+    color: white;
+}
+
+.view_project {
+    border: none;
+    height: 40px;
+    width: 155px;
+    border-radius: 5px;
+    background-color: #005f8f;
+}
+
+.products {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.products h1 {
+    position: relative;
+    left: 200px;
+    bottom: 80px;
+    width: 200px;
+    font-family: "Poppins";
+    font-size: 38px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+}
+
+.plan {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 250px;
+    height: 400px;
+    transition: all 1s ease;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.line {
+    border: 1px solid #005f8f;
+    width: 200px;
+    height: 0px;
+}
+
+.price {
+    font-size: 20px;
+}
+
+span {
+    color: #3664a4;
+}
+
+.plan ul {
+    list-style: none; 
+    padding: 0;
+    font-size: 14px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-family: "Poppins";
+}
+
+.plan button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+
+.plan button {
+    background-color: #005f8f;
+}
+
+.plan button:hover {
+    background-color: #3664a4;
+}
+
+.plan h3 {
+    width: 100%;
+    margin-top: 30px;
+    align-items: center;
+    padding-bottom: 10px;
+    font-family: "Poppins";
+
+}
+
+
+.plan {
+    transition: transform 1s ease, z-index 0s;
+}
+  
+
+.plan:hover {
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+.contacts {
+    width: 100%;
+    height: 400px;
+    background-color:aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.contacts h1 {
+    font-family: "Poppins";
+    font-size: 38px;
+    position: relative;
+    left: 200px;
+    top: 20px;
+    width: 200px;
+
+}
+
+.contacts_block {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts_block h2 {
+    font-family: "Poppins";
+    font-size: 50px;
+}
+
+.contacts_line {
+    border: 1px solid #214f8e;
+    width: 0px;
+    height: 150px;
+}
+
+.contacts_info {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+}
+
+.form_container {
+    width: 100%;
+    height: 500px;
+    background-color:#3664a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_form {
+  max-width: 800px;
+  padding: 30px 35px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 80px;
+}
+
+.contacts_right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-label {
+  font-weight: 500;
+  color: black;
+  margin-top: 15px;
+}
+
+.form-control {
+  border-radius: 10px;
+  padding: 10px 14px;
+}
+
+.btn-primary {
+  background-color: #005f8f; 
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #214f8e;
+}
+
+.mb-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.mb-3 input {
+    width: 300px;
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
+}
+
+.logo_footer img {
+    height: 80px;
+    width: 100px;
+}
+
+footer {
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.footer_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 450px;
+}
+
+.footer_middle h4 {
+    font-size: 15px;
+    font-family: "Poppins";
+    font-weight: 400;
+}
